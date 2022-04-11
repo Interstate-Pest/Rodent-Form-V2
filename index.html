@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rodent Form V2</title>
   </head>
-  <body style="font-size: 10pt; margin: 3mm 3mm; margin-top: 10px">
+  <body style="font-size: 8pt; margin: 3mm 3mm; margin-top: 10px">
     <!-- " line-height: 90%;"> -->
     <!-- Logo and company contact info -->
     <header style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
@@ -29,7 +29,7 @@
             <p style="font-size: 12px;"><i>Exceeding expectations since 1963!</i></p>
           </div>
     </header>
-    <h4 style="text-align: center;">Rodent Exclusion</h4>
+    <h3 style="text-align: center;">RODENT EXCLUSION</h3>
       <!-- Customer Contact info -->
       <article style="border: 1px solid black">
         <div
@@ -44,7 +44,7 @@
                 border: 1px solid black;
                 display: grid;
                 grid-template-columns: 1fr 3fr;
-                padding: 3px;
+                padding: 3pt;
               "
             >
               <label for="">SUBMITTED TO</label>
@@ -95,7 +95,7 @@
               border: 1px solid black;
               display: grid;
               grid-template-columns: 1fr 3fr;
-              padding: 3px;
+              padding: 3pt;
             "
           >
             <label for="">EMAIL</label>
@@ -142,8 +142,8 @@
       <!-- Summary of inspection -->
       <div class="emptyBox" style="height: 2rem;">
         <h3 style="text-align: center;">SUMMARY OF INSPECTION</h3>
-    </div>
-      <article style="border: 2px solid black; padding: 3px;">
+      </div>
+      <article style="border: 2px solid black; padding: 3pt;">
           <div id="activity">
             <label for="activtiyLevels"style="text-decoration: underline;">RODENT ACTIVITY AND PRESSURE:</label>
           </div>
@@ -158,7 +158,89 @@
           </div>
     </article>
     <!-- Inspected items -->
+    <div class="emptyBox" style="height: 2rem;">
+      <h3 style="text-align: center;">INSPECTED ITEMS</h3>
+    </div>
+    <article style="border: 1px solid black; display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 3pt;">
+      <div id="col1" style="display: grid; grid-template-columns: 1fr 1fr;">
+        <label>PERIMETER OF SUB AREA</label>
+        <input type="checkbox">
+        <label>ATTIC</label>
+        <input type="checkbox">
+        <label>FOUNDATION VENTS</label>
+        <input type="checkbox">
+        <label>SIDING / SILL PLATE</label>
+        <input type="checkbox">
+        <label>EXTERIOR FOUNDATION</label>
+        <input type="checkbox">
+        <label>SOIL AROUND PERIMETER</label>
+        <input type="checkbox">
+      </div>
+      <div id="col2" style="display: grid; grid-template-columns: 1fr 1fr;">
+        <label>GUTTERLINE</label>
+        <input type="checkbox">
+        <label>EAVES / SOFFITS</label>
+        <input type="checkbox">
+        <label>GABLES / LOUVERS</label>
+        <input type="checkbox">
+        <label>DORMERS</label>
+        <input type="checkbox">
+        <label>DOOR SWEEPS</label>
+        <input type="checkbox">
+        <label>CRAWL SPACE ACCESS</label>
+        <input type="checkbox">
+      </div>
+      <div id="col3" style="display: grid; grid-template-columns: 1fr 1fr;">
+        <label>UTILITES</label>
+        <input type="checkbox">
+        <label>CHIMENYS</label>
+        <input type="checkbox">
+        <label>ROOF VENTS</label>
+        <input type="checkbox">
+        <label>DYER / EXHAUST VENTS</label>
+        <input type="checkbox">
+        <label>DECK</label>
+        <input type="checkbox">
+        <label>FURNANCE</label>
+        <input type="checkbox">
+      </div>
+    </article>
     <!-- Repair items -->
+    <div class="emptyBox" style="height: 2rem;">
+      <h3 style="text-align: center;">REPAIR ITEMS</h3>
+    </div>
+    <article style="display: grid; grid-template-columns: 4fr 1fr 1fr;">
+      <div style="display: grid;">
+        <label style="border: 1px solid black; padding: 2pt; border-bottom: none; font-weight: bold;">ITEM</label>
+        <input maxlength="25">
+        <input maxlength="25">
+        <input maxlength="25">
+        <input maxlength="25">
+        <input maxlength="25">
+        <input maxlength="25">
+        <input maxlength="25">
+      </div>
+      <div style="display: grid;">
+        <label style="border: 1px solid black; padding: 2pt; border-bottom: none; font-weight: bold;">QUANTITY</label>
+        <input maxlength="2">
+        <input maxlength="2">
+        <input maxlength="2">
+        <input maxlength="2">
+        <input maxlength="2">
+        <input maxlength="2">
+        <input maxlength="2">
+      </div>
+      <div style="display: grid;">
+        <label style="border: 1px solid black; padding: 2pt; border-bottom: none; font-weight: bold;">COST</label>
+        <input maxlength="9">
+        <input maxlength="9">
+        <input maxlength="9">
+        <input maxlength="9">
+        <input maxlength="9">
+        <input maxlength="9">
+        <input maxlength="9">
+      </div>
+    </article>
     <!-- Terms -->
     <!-- Page break --> 
     <!-- Diagram of repairs -->
