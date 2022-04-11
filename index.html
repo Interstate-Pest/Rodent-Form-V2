@@ -13,7 +13,7 @@
         <div>
             <p style="margin: 0px; margin-left: 15px; margin-top: 8px">
                 1301 Elm Place<br />
-                Keslo, WA 98626<br />
+                Kelso, WA 98626<br />
                 (360) 636-0560<br />
               </p>
               <p>info@interstatepest.com</p>
@@ -48,7 +48,7 @@
               "
             >
               <label for="">SUBMITTED TO</label>
-              <input type="text" style="width: 95%; border: none;" />
+              <input type="text" style="width: 95%; border: none;" value="{{customerName}}"/>
             </div>
             <div
               class="formSection"
@@ -60,7 +60,7 @@
               "
             >
               <label for="">STREET</label>
-              <input type="text" style="width: 95%; border: none;" />
+              <input type="text" style="width: 95%; border: none;" value="{{customerAddress}}"/>
             </div>
             <div
               class="formSection"
@@ -72,7 +72,7 @@
               "
             >
               <label for="">CITY, STATE</label>
-              <input type="text" style="width: 95%; border: none;" />
+              <input type="text" style="width: 95%; border: none;" value="{{customerCity}}, {{customerState}}"/>
             </div>
             <div
               class="formSection"
@@ -84,7 +84,7 @@
               "
             >
               <label for="">ZIP</label>
-              <input type="text" style="width: 95%; border: none;" />
+              <input type="text" style="width: 95%; border: none;" value="{{customerZip}}"/>
             </div>
           </div>
           <!-- Right hand panel -->
@@ -99,7 +99,7 @@
             "
           >
             <label for="">EMAIL</label>
-            <input type="text" style="width: 95%; border: none;" />
+            <input type="text" style="width: 95%; border: none;" value="{{customerEmail}}"/>
           </div>
             <div
               class="formSection"
@@ -111,7 +111,7 @@
               "
             >
               <label for="">PHONE</label>
-              <input type="text" style="width: 95%; border: none;" />
+              <input type="text" style="width: 95%; border: none;" value="{{customerPhone}}"/>
             </div>
             <div
               class="formSection"
@@ -261,11 +261,11 @@
       <div class="col1" style="display: grid; grid-template-columns: 1fr 1fr;">
         <div class="inspectorSig">
           <label>INSPECTOR SIGNATURE</label>
-          <input type="text" style="border: none; border-bottom: 1px solid black;">
+          <div class='realimage' prtype='signaturepicker' for="employee" style='width:100px; border: none; height:60px;'></div>
         </div>
         <div class="customerSig">
           <label>CUSTOMER SIGNATURE</label>
-          <input type="text" style="border: none; border-bottom: 1px solid black;">
+          <div class='realimage' prtype='signaturepicker' for="customer" style='width:100px; border: none; height:60px;'></div>
         </div>
       </div>
       <p style="margin: 0px; text-align: right;">Page 1 of 2</p>
@@ -309,7 +309,7 @@
       <div>
           <p style="margin: 0px; margin-left: 15px; margin-top: 8px">
               1301 Elm Place<br />
-              Keslo, WA 98626<br />
+              Kelso, WA 98626<br />
               (360) 636-0560<br />
             </p>
             <p>info@interstatepest.com</p>
@@ -330,8 +330,3 @@
     
   </body>
 </html>
-
-
-<!-- Sample text for testing -->
-<!-- Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies n -->
-
